@@ -32,6 +32,7 @@ flowchart TD
     D ---->|No| E[Go Home]
     B ---->|No| F[Smoke Break Anyway]
     F --> E
+    D -->|Yes| B
 ```
 
 
