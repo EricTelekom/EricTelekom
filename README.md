@@ -17,7 +17,7 @@
 
 ```mermaid
 pie  title  My Strenghs
-" " : 100
+" " : 0
 ```
 
 ```mermaid
