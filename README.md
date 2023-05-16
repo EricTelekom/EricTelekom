@@ -17,7 +17,8 @@
 
 ```mermaid
 pie  title  My Strenghs
-" " : 1
+"Python" : 187
+"Also Python" : 420
 ```
 
 ```mermaid
