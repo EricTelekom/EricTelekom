@@ -27,13 +27,16 @@ pie  title  My Strenghs
 title: Average Workflow while in the office
 ---
 stateDiagram-v2
+    State1: Smoke Break
+    State2: Actual Work
+    State3: End of Day
     [*] --> Kickoff
     Kickoff --> [*]
 
-    Kickoff --> Smoke Break
-    Smoke Break --> Kickoff
-    Smoke Break --> Actual Work
-    Actual Work --> End of Day
+    Kickoff --> State1
+    State1 --> Kickoff
+    State1 --> State2
+    State2 --> State3
     [*] --> Finished Product
 ```
 
