@@ -43,9 +43,15 @@ flowchart TD
     B -->|Yes| C[Smoke Break]
     C --> D[Smoke Break Anyway]
     D --> E{Get some work done?
-    E -->|No| F[Go Home]
+    E ---->|No| F[Go Home]
     B ---->|No| G[End]
 ```
+flowchart TD
+    A[Start] --> B{Is it?}
+    B -->|Yes| C[OK]
+    C --> D[Rethink]
+    D --> B
+    B ---->|No| E[End]
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
