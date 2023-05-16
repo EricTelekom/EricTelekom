@@ -44,7 +44,7 @@ flowchart TD
     C --> D{Get some work done?}
     D ---->|No| E[Go Home]
     B ---->|No| F[Smoke Break Anyway]
-    B --> E
+    
 ```
 flowchart TD
     A[Start] --> B{Is it?}
