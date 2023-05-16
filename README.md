@@ -30,10 +30,11 @@ stateDiagram-v2
     [*] --> Kickoff
     Kickoff --> [*]
 
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
+    Kickoff --> Smoke Break
+    Smoke Break --> Kickoff
+    Smoke Break --> Actual Work
+    Actual Work --> End of Day
+    [*] --> Finished Product
 ```
 
 <h3 align="left">Connect with me:</h3>
