@@ -22,7 +22,7 @@ pie  title  My Strenghs
 ```
 
 
-```
+```mermaid
 ---
 title: Simple sample
 ---
