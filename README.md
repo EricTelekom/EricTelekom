@@ -41,10 +41,10 @@ stateDiagram-v2
 flowchart TD
     A[Kickoff] --> B{Is it?}
     B -->|Yes| C[Smoke Break]
-    C --> D[Smoke Break Anyway]
-    D --> E{Get some work done?}
-    E ---->|No| F[Go Home]
-    B ---->|No| G[End]
+    C --> D{Get some work done?}
+    D ---->|No| E[Go Home]
+    B ---->|No| F[Smoke Break Anyway]
+    B --> E
 ```
 flowchart TD
     A[Start] --> B{Is it?}
