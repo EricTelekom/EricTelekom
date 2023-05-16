@@ -30,8 +30,8 @@ stateDiagram-v2
     [*] --> Kickoff
     Kickoff --> [*]
 
-    Kickoff --> Smoke Break
-    Smoke Break --> Kickoff
+    Kickoff --> "Smoke Break"
+    "Smoke Break" --> Kickoff
     Smoke Break --> Actual Work
     Actual Work --> End of Day
     [*] --> Finished Product
