@@ -37,7 +37,7 @@ stateDiagram-v2
     State1 --> Kickoff
     State1 --> State2
     State2 --> State3
-    [*] --> Finished Product
+    Finished Product
 ```
 
 <h3 align="left">Connect with me:</h3>
