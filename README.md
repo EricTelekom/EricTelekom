@@ -35,43 +35,6 @@ flowchart TD
     D -->|Yes| B
 ```
 
-```mermaid
-graph LR
-    A[Start] --> B[Arrive at Work]
-    B --> C[Check Emails]
-    C --> SB1[Smoke Break]
-    SB1 --> E[Plan Tasks]
-    E --> SB2[Smoke Break]
-    SB2 --> G[Start Task 1]
-    G --> SB3[Smoke Break]
-    SB3 --> I[Get Distracted]
-    I --> SB4[Smoke Break]
-    SB4 --> K[Start Task 2]
-    K --> SB5[Smoke Break]
-    SB5 --> M[Go to Feed Station for Lunch]
-    M --> SB6[Smoke Break]
-    SB6 --> O[Socialize with Colleagues]
-    O --> SB7[Smoke Break]
-    SB7 --> Q[Attempt Task 1 Again]
-    Q --> SB8[Smoke Break]
-    SB8 --> S[Check Emails]
-    S --> SB9[Smoke Break]
-    SB9 --> S
-    S --> U[Leave Work]
-    U --> V[End]
-    
-    subgraph Repeated
-        SB1 -->|Reference| SB2
-        SB2 -->|Reference| SB3
-        SB3 -->|Reference| SB4
-        SB4 -->|Reference| SB5
-        SB5 -->|Reference| SB6
-        SB6 -->|Reference| SB7
-        SB7 -->|Reference| SB8
-        SB8 -->|Reference| SB9
-    end
-```
-
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
