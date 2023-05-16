@@ -37,6 +37,16 @@ stateDiagram-v2
     State2 --> State3
 ```
 
+```mermaid
+flowchart TD
+    A[Kickoff] --> B{Is it?}
+    B -->|Yes| C[Smoke Break]
+    C --> D[Smoke Break Anyway]
+    D --> E{Get some work done?
+    E -->|No| F[Go Home]
+    B ---->|No| G[End]
+```
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://discord.gg/eric.#1308" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="eric.#1308" height="30" width="40" /></a>
