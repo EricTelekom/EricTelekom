@@ -31,7 +31,6 @@ stateDiagram-v2
     State2: Actual Work
     State3: End of Day
     [*] --> Kickoff
-
     Kickoff --> State1
     State1 --> Kickoff
     State1 --> State2
