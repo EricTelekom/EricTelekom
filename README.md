@@ -24,11 +24,11 @@ pie  title  My Strenghs
 
 ```mermaid
 ---
-title: Simple sample
+title: Average Workflow while in the office
 ---
 stateDiagram-v2
-    [*] --> Still
-    Still --> [*]
+    [*] --> Kickoff
+    Kickoff --> [*]
 
     Still --> Moving
     Moving --> Still
