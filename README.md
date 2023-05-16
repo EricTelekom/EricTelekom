@@ -42,7 +42,7 @@ flowchart TD
     A[Kickoff] --> B{Is it?}
     B -->|Yes| C[Smoke Break]
     C --> D[Smoke Break Anyway]
-    D --> E{Get some work done?
+    D --> E{Get some work done?}
     E ---->|No| F[Go Home]
     B ---->|No| G[End]
 ```
