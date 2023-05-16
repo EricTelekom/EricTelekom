@@ -21,37 +21,19 @@ pie  title  My Strenghs
 "Also Python" : 420
 ```
 
-
 ```mermaid
 ---
 title: Average Workflow while in the office
 ---
-stateDiagram-v2
-    State1: Smoke Break
-    State2: Actual Work
-    State3: End of Day
-    [*] --> Kickoff
-    Kickoff --> State1
-    State1 --> Kickoff
-    State1 --> State2
-    State2 --> State3
-```
-
-```mermaid
 flowchart TD
-    A[Kickoff] --> B{Is it?}
+    A[Kickoff] --> B{Really?}
     B -->|Yes| C[Smoke Break]
     C --> D{Get some work done?}
     D ---->|No| E[Go Home]
     B ---->|No| F[Smoke Break Anyway]
-    
+    F --> E
 ```
-flowchart TD
-    A[Start] --> B{Is it?}
-    B -->|Yes| C[OK]
-    C --> D[Rethink]
-    D --> B
-    B ---->|No| E[End]
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
