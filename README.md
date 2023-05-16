@@ -31,13 +31,11 @@ stateDiagram-v2
     State2: Actual Work
     State3: End of Day
     [*] --> Kickoff
-    Kickoff --> [*]
 
     Kickoff --> State1
     State1 --> Kickoff
     State1 --> State2
     State2 --> State3
-    Finished Product
 ```
 
 <h3 align="left">Connect with me:</h3>
