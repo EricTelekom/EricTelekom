@@ -21,6 +21,21 @@ pie  title  My Strenghs
 "Also Python" : 420
 ```
 
+
+```
+---
+title: Simple sample
+---
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+```
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://discord.gg/eric.#1308" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="eric.#1308" height="30" width="40" /></a>
