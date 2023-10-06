@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Eric</h1>
+<h1 align="center">Hi 👋, I'm Eric Dirla</h1>
 <h3 align="center">A developer from Germany</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=erictelekom&label=Profile%20views&color=0e75b6&style=flat" alt="erictelekom" /> </p>
